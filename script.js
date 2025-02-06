@@ -28,12 +28,22 @@
 //document.getElementById("Homework").innerHTML =
 //phone.name + "'s color is " + phone.color + ".";
 
-const person = {
-firstName: "Shokhboz",
-lastName: "Gulomov",
-age: 21,
-eyecolor: "brown"
+//const person = {
+//firstName: "Shokhboz",
+//lastName: "Gulomov",
+//age: 21,
+//eyecolor: "brown"
 
+//};
+//document.getElementById("Homework").innerHTML =
+//person.firstName + " is " + person.age + "years old.";
+
+const movie = {
+    name: "La Casa De Papel",
+    language: "Spanish",
+    createdby: "Alex.Pina",
+    genre: "crime" 
 };
 document.getElementById("Homework").innerHTML =
-person.firstName + " is " + person.age + "years old.";
+movie.name + "'s genre is " + movie.genre + ".";
+
