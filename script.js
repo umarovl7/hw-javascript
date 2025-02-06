@@ -19,12 +19,21 @@
 //document.getElementById("Homework").innerHTML =
 //footballclub.name + "'s nickname is " + footballclub.nicknames + ".";
 
-const phone = {
-    name: "iPhone",
-    model: "15 pro max",
-    color: "beige",
-    year: 2024
+// const phone = {
+   // name: "iPhone",
+   // model: "15 pro max",
+   // color: "beige",
+   // year: 2024
+//};
+//document.getElementById("Homework").innerHTML =
+//phone.name + "'s color is " + phone.color + ".";
+
+const person = {
+firstName: "Shokhboz",
+lastName: "Gulomov",
+age: 21,
+eyecolor: "brown"
+
 };
 document.getElementById("Homework").innerHTML =
-phone.name + "'s color is " + phone.color + ".";
-
+person.firstName + " is " + person.age + "years old.";
